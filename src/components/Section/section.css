@@ -1,7 +1,7 @@
 .section-container {
   display: flex;
   max-width: 100rem;
-  max-height: 60rem;
+  max-height: 100rem;
 }
 
 @media screen and (max-width: 900px) {

@@ -14,13 +14,16 @@ const Info = () => {
         <p className="info-text-description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and over efficiency.</p>
         <ul className="info-text_numbers-container">
           <li className="info-text-number-data">
-            10k+<span>Companies</span>
+            <h2>10k+</h2>
+            <span>Companies</span>
           </li>
           <li className="info-text-number-data">
-            314<span>Templates</span>
+            <h2>314</h2>
+            <span>Templates</span>
           </li>
           <li className="info-text-number-data">
-            12M+<span>Queries</span>
+            <h2>12M+</h2>
+            <span>Queries</span>
           </li>
         </ul>
       </div>
