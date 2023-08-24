@@ -1,5 +1,12 @@
 import "./App.css"
+import { Section } from "./components"
 
-function App() {}
+function App() {
+  return (
+    <>
+      <Section />
+    </>
+  )
+}
 
 export default App
