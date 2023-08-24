@@ -1,8 +1,15 @@
 .section-container {
   display: flex;
-  max-width: fit-content;
-  max-height: 36rem;
+  max-width: 100rem;
+  max-height: 60rem;
   align-items: center;
   justify-content: center;
   border: 1px solid white;
+}
+
+@media screen and (max-width: 900px) {
+  .section-container {
+    flex-direction: column-reverse;
+    max-height: fit-content;
+  }
 }
