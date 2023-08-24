@@ -2,7 +2,6 @@
   display: flex;
   max-width: 100rem;
   max-height: 60rem;
-  border: 1px solid white;
 }
 
 @media screen and (max-width: 900px) {

@@ -12,18 +12,17 @@
 /* Text Container */
 .info-text-container {
   max-width: 100%;
-  padding: 100px;
-  height: 37.5rem;
+  padding: 50px;
+  height: 38rem;
   color: white;
   background-color: #1c1938;
-  border: 1px solid blue;
 }
 
 .info-text-header {
   font-family: var(--header-text);
   font-size: 50px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .info-text-header span {
@@ -31,10 +30,13 @@
 }
 
 .info-text-description {
-  color:  hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+  border: 1px solid;
   font-size: 25px;
   font-weight: 400;
+  line-height: 35px;
   font-family: var(--section-text);
+  max-width: 550px;
 }
 
 .info-text_numbers-container {
@@ -42,3 +44,24 @@
 }
 
 /* Responsiveness */
+@media screen and (min-width: 901px) {
+  .info-text-container {
+    border-top-left-radius: 1.875rem;
+    border-bottom-left-radius: 1.875rem;
+  }
+
+  .info-image-container {
+    border-top-right-radius: 1.875rem;
+    border-bottom-right-radius: 1.875rem;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .info-text-container {
+    text-align: center;
+  }
+
+  .info-text-description {
+    margin: auto;
+  }
+}
