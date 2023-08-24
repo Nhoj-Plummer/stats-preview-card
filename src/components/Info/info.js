@@ -9,7 +9,7 @@ const Info = () => {
     <Section>
       <div className="info-text-container">
         <h2 className="info-text-header">Get insights that help your business grow.</h2>
-        <p className="info-text-description"></p>
+        <p className="info-text-description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and over efficiency.</p>
         <ul className="info-text_numbers-container"></ul>
       </div>
       <div className="info-image-container">
