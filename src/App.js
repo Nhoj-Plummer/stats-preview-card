@@ -1,10 +1,10 @@
 import "./App.css"
-import { Section } from "./components"
+import { Info } from "./components"
 
 function App() {
   return (
     <>
-      <Section />
+      <Info />
     </>
   )
 }
