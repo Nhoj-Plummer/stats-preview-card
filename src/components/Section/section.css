@@ -2,5 +2,7 @@
   display: flex;
   max-width: fit-content;
   max-height: 36rem;
+  align-items: center;
+  justify-content: center;
   border: 1px solid white;
 }

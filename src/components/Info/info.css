@@ -1,17 +1,31 @@
+/*Image Section */
 .info-image-container {
+  max-height: 20rem;
   border: 1px solid red;
-  width: 50%;
-  max-height: 100%;
 }
 
 .info-image-container img {
-  display: block;
   max-height: 100%;
   max-width: 100%;
+  background-image: url();
+  /* filter: invert(10%) sepia(10%) saturate(6749%) hue-rotate(216deg) brightness(87%) contrast(96%); */
 }
 
+/* Text Container */
 .info-text-container {
   border: 1px solid blue;
-  width: 50%;
+  width:100%;
   height: 100%;
 }
+
+/* .info-text-header {
+  border: 1px solid yellow;
+}
+
+.info-text-description {
+  border: 1px solid green;
+}
+
+.info-text_numbers-container {
+ border: 1px solid 
+} */
