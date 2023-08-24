@@ -1,6 +1,6 @@
 .section-container {
   display: flex;
-  width: 90rem;
-  height: 50rem;
+  max-width: fit-content;
+  max-height: 36rem;
   border: 1px solid white;
 }

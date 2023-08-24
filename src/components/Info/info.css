@@ -1,0 +1,17 @@
+.info-image-container {
+  border: 1px solid red;
+  width: 50%;
+  max-height: 100%;
+}
+
+.info-image-container img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.info-text-container {
+  border: 1px solid blue;
+  width: 50%;
+  height: 100%;
+}
