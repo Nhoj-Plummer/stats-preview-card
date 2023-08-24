@@ -3,6 +3,7 @@
   min-width: 50%;
   min-height: 38rem;
   background-size: cover;
+  background-position: center center;
   background-image: url("../../assets/image-header-desktop.jpg");
   filter: invert(10%) sepia(10%) saturate(6749%) hue-rotate(216deg) brightness(87%) contrast(96%);
   border: 1px solid red;
@@ -14,14 +15,14 @@
 
 /* Text Container */
 .info-text-container {
-  max-width: 50%;
+  max-width: 100%;
   padding: 20px;
   height: 37.5rem;
   color: white;
   border: 1px solid blue;
 }
 
-/* .info-text-header {
+.info-text-header {
   border: 1px solid yellow;
 }
 
@@ -30,5 +31,29 @@
 }
 
 .info-text_numbers-container {
- border: 1px solid 
+  border: 1px solid;
+}
+
+/* Responsiveness */
+/* @media screen and (max-width:900px) {
+  .info-image-container {
+    min-height: 20rem;
+    background-position: center center;
+  }
+} */
+/* @media screen and (max-width: 900px) {
+  .info-image-container {
+    min-height: 20rem;
+    background-image: url("../../assets/image-header-mobile.jpg");
+  }
+
+  .info-text-container {
+
+  }
+}
+
+@media screen and (max-width: 425px){
+  .info-image-container {
+    min-width: 23.3rem;
+  }
 } */
