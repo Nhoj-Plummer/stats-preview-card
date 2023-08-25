@@ -6,7 +6,6 @@
   background-position: center center;
   background-image: url("../../assets/image-header-desktop.jpg");
   filter: invert(10%) sepia(10%) saturate(6749%) hue-rotate(216deg) brightness(87%) contrast(96%);
-  border: 1px solid red;
 }
 
 /* Text Container */
@@ -35,25 +34,36 @@
   font-weight: 400;
   line-height: 35px;
   font-family: var(--section-text);
-  max-width: 490px;
+  max-width: 470px;
   margin-bottom: 6.25rem;
 }
 
+/* Stats Section */
 .info-text_numbers-container {
   display: inline-flex;
   width: 100%;
   list-style-type: none;
-  border: 1px solid;
 }
 
 .info-text_numbers-container li {
-  margin: auto;
-  text-align: center;
-  border: 1px solid;
+  line-height: 33px;
+  max-width: 100%;
+  margin: 0 90px 0 0;
 }
 
-.info-text_numbers-container span {
+.info-text_numbers-container h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  font-family: var(--header-text);
+}
+
+.info-text_numbers-container li span {
   display: block;
+  font-family: var(--section-text);
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 /* Responsiveness */
@@ -83,5 +93,14 @@
 
   .info-text-description {
     margin: auto;
+  }
+
+  .info-text_numbers-container {
+    flex-direction: column;
+  }
+
+  .info-text_numbers-container li {
+    margin: auto;
+    margin-top: 50px;
   }
 }
